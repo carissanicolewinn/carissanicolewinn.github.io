@@ -322,7 +322,20 @@ nav a:hover, nav a:active {
 }
 .post .read-more {
   text-transform: uppercase;
+  font-size: 13px;
+}
+
+.pagination {
+  text-align: right;
+  padding-bottom: 25px;
   font-size: 15px;
+}
+.pagination .previous, .pagination .next {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.pagination .page-number {
+  font-size: 13px;
 }
 
 .wrapper-footer {
