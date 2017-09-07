@@ -271,6 +271,7 @@ img {
 .authorinfo img {
   width: 150px;
   height: 150px;
+  margin-top: 10px;
 }
 
 .recentposts ul {
