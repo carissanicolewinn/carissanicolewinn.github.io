@@ -266,6 +266,12 @@ img {
   height: 150px;
 }
 
+.recentposts ul {
+  line-height: 35px;
+  list-style-type: none;
+  font-size: 17px;
+}
+
 #main {
   width: 660px;
   float: left;
