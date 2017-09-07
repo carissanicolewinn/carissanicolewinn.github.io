@@ -204,22 +204,21 @@ img {
   }
 }
 
-/* .site-avatar {
-  float: left;
-  width: 70px;
-  height: 70px;
-  margin-right: 15px;
-
-  @include mobile {
+.site-avatar {
+  width: 15%;
+  height: 15%;
+}
+@media screen and (max-width: 640px) {
+  .site-avatar {
     float: none;
     display: block;
     margin: 0 auto;
   }
+}
+.site-avatar img {
+  border-radius: 5px;
+}
 
-  img {
-    border-radius: 5px;
-  }
-} */
 @media screen and (max-width: 640px) {
   .site-info {
     float: none;
@@ -229,7 +228,8 @@ img {
 }
 
 .site-name {
-  margin: 0;
+  margin-top: -20px;
+  margin-bottom: -12px;
   color: #333;
   cursor: pointer;
   font-family: Allura, cursive, sans-serif;
@@ -259,6 +259,13 @@ img {
   width: 240px;
   float: right;
   padding-bottom: 25px;
+  text-align: right;
+}
+#sidebar h3 {
+  margin-bottom: 0;
+}
+#sidebar a {
+  line-height: 25px;
 }
 
 .authorinfo img {
@@ -267,9 +274,19 @@ img {
 }
 
 .recentposts ul {
-  line-height: 35px;
   list-style-type: none;
-  font-size: 17px;
+  font-size: 15px;
+  margin: 0;
+}
+
+.post-listings {
+  font-size: 16px;
+}
+.post-listings a {
+  color: #4183C4;
+}
+.post-listings a:hover, .post-listings a:active {
+  color: #333;
 }
 
 #main {
@@ -344,6 +361,10 @@ nav a:hover, nav a:active {
   font-size: 13px;
 }
 
+.post-tags {
+  text-align: right;
+}
+
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #ddd;
@@ -365,6 +386,9 @@ nav a:hover, nav a:active {
 }
 .archive-post-list ul a {
   color: #333;
+}
+.archive-post-list ul a:hover, .archive-post-list ul a:active {
+  color: #4183C4;
 }
 
 footer {
