@@ -242,6 +242,7 @@ img {
 @media screen and (max-width: 640px) {
   .site-name {
     margin-top: -5px;
+    font-size: 35px;
   }
 }
 
