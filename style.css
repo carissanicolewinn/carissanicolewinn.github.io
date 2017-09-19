@@ -273,12 +273,12 @@ img {
   float: right;
   padding-bottom: 25px;
   text-align: right;
+  /* a {
+    line-height: 25px;
+  }*/
 }
 #sidebar h3 {
   margin-bottom: 0;
-}
-#sidebar a {
-  line-height: 25px;
 }
 @media screen and (max-width: 640px) {
   #sidebar {
@@ -297,12 +297,16 @@ img {
   font-size: 15px;
   margin: 0;
 }
+.recentposts ul li {
+  padding-bottom: 20px;
+}
 
 .post-listings {
   font-size: 16px;
 }
 .post-listings a {
   color: #4183C4;
+  line-height: 25px;
 }
 .post-listings a:hover, .post-listings a:active {
   color: #333;
@@ -364,7 +368,7 @@ nav a:hover, nav a:active {
   border-left: 2px solid #666;
   padding: 0.1em 1em;
   color: #666;
-  font-size: 22px;
+  font-size: 18px;
   font-style: italic;
 }
 .post .comments {
