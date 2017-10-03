@@ -353,6 +353,20 @@ nav a:hover, nav a:active {
   color: #4183C4;
 }
 
+.stick {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: white;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid #eee;
