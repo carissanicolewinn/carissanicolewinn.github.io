@@ -366,6 +366,11 @@ nav a:hover, nav a:active {
   border-bottom: 1px solid #eee;
   text-align: center;
 }
+@media screen and (max-width: 640px) {
+  .stick {
+    display: none;
+  }
+}
 
 .posts > .post {
   padding-bottom: 2em;
