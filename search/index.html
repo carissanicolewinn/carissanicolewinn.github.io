@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Tags – carissa nicole winn</title>
+    <title>Search – carissa nicole winn</title>
 
         <meta charset="utf-8" />
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -35,8 +35,8 @@
     <meta name="author" content="carissa nicole winn" />
 
     
-    <meta property="og:title" content="Tags" />
-    <meta property="twitter:title" content="Tags" />
+    <meta property="og:title" content="Search" />
+    <meta property="twitter:title" content="Search" />
     
 
     
@@ -110,36 +110,27 @@
     <div id="main" role="main" class="container">
       <article class="page">
 
-  <h1>Tags</h1>
+  <h1>Search</h1>
 
   <div class="entry">
-    <div class="archive-post-list">
-  <ul>
-   
-
-
-  
-  
-  <li><a href="/tag/christianity">christianity</a></li>
-
-  
-  
-  <li><a href="/tag/personal">personal</a></li>
-
-  
-  
-  <li><a href="/tag/lgbtq+">lgbtq+</a></li>
-
-  
-  
-  <li><a href="/tag/feminism">feminism</a></li>
-
-  
-  
-  <li><a href="/tag/family">family</a></li>
-
-  </ul>
+    <!-- Html Elements for Search -->
+<div id="search-container" class="archive-post-list">
+<input type="text" id="search-input" placeholder="search..." />
+<ul id="results-container"></ul>
 </div>
+
+<!-- Script pointing to search-script.js -->
+<script src="/js/search-script.js" type="text/javascript"></script>
+
+<!-- Configuration -->
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '/search.json'
+})
+</script>
+
 
   </div>
 </article>
