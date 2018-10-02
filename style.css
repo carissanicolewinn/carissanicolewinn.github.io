@@ -335,7 +335,7 @@ nav {
     float: none;
     margin-top: 9px;
     display: block;
-    font-size: 18px;
+    font-size: 17px;
   }
 }
 nav a {
@@ -344,13 +344,15 @@ nav a {
   letter-spacing: 1px;
   margin-right: 8px;
   margin-left: 8px;
-  /*@include mobile {
-    // margin: 0 10px;
-    color: $blue;
-  }*/
 }
 nav a:hover, nav a:active {
   color: #4183C4;
+}
+@media screen and (max-width: 640px) {
+  nav a {
+    margin-right: 6px;
+    margin-left: 6px;
+  }
 }
 
 .stick {
