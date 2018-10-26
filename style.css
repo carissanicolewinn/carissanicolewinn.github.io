@@ -249,15 +249,6 @@ img {
 @media screen and (max-width: 640px) {
   font-size: 100%;
 }
-/* .site-description {
-  margin: -5px 0 0 0;
-  color: $gray;
-  font-size: 16px;
-
-  @include mobile {
-    margin: 3px 0;
-  }
-} */
 .wrap {
   width: 900px;
   margin: 0 auto;
