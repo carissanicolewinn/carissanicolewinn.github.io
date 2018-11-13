@@ -238,6 +238,7 @@ img {
   font-weight: 300;
   font-size: 62px;
   letter-spacing: 1px;
+  text-transform: lowercase;
 }
 @media screen and (max-width: 640px) {
   .site-name {
