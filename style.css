@@ -368,6 +368,12 @@ hr.backtotop {
   width: 150px;
 }
 
+img.center {
+  margin: 0 auto;
+  display: block;
+  max-width: 300px;
+}
+
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid #eee;
