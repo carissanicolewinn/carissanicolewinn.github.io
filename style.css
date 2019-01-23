@@ -114,7 +114,7 @@ p {
 }
 
 a {
-  color: #4183C4;
+  color: #8E62C4;
   text-decoration: none;
   cursor: pointer;
 }
@@ -294,7 +294,7 @@ img {
   font-size: 16px;
 }
 .post-listings a {
-  color: #4183C4;
+  color: #8E62C4;
   line-height: 25px;
 }
 .post-listings a:hover, .post-listings a:active {
@@ -335,7 +335,7 @@ nav a {
   margin-left: 8px;
 }
 nav a:hover, nav a:active {
-  color: #4183C4;
+  color: #8E62C4;
 }
 @media screen and (max-width: 640px) {
   nav a {
@@ -445,7 +445,7 @@ img.center {
   color: #333;
 }
 .archive-post-list ul a:hover, .archive-post-list ul a:active {
-  color: #4183C4;
+  color: #8E62C4;
 }
 
 footer {
@@ -537,7 +537,7 @@ select {
 }
 
 .form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover {
-  background: #4183C4;
+  background: #8E62C4;
   box-shadow: none;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
