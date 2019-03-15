@@ -562,6 +562,8 @@ select {
     display: block;
     clear: both;
     border-top: 1px solid #eee;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
