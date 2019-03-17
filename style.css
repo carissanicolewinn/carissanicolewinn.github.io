@@ -344,6 +344,10 @@ nav a:hover, nav a:active {
   }
 }
 
+a.active {
+  color: #8E62C4;
+}
+
 .stick {
   position: fixed;
   width: 100%;
